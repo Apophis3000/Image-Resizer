@@ -15,7 +15,7 @@ namespace ImageResizer
             string path = @"C:\Bild.jpg";
             Bitmap res = new Bitmap(path);
 
-            //Bitmap res = Rescale(path, 1200, 750);
+            Bitmap res = Rescale(path, 1200, 750);
             res.Save(@"C:\Projects\neu.jpg", ImageFormat.Jpeg);
         }
 
